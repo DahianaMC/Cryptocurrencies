@@ -9,3 +9,9 @@ The idea with this challange is to provide how cryptocurrencies could be grouped
 - We used the StandardScaler from sklearn to standardize all of the data.
 - We applied the PCA algorithm from sklearn to reduce the dimensions of the DataFrame with 100 columns down to three principal components.
 - After getting the 3 main components from PCA algorithm, we used the K-means algorithm from sklearn to cluster the cryptocurrencies using the PCA data. 
+- We created the elbow curve and found the best value for K, in this case was 4.
+
+## Visualizing Results
+- We created a 3D scatter plot to plot the clusters.
+- We used the hvplot.table to create a data table from a dataframe.
+- Finally we created a scatter plot using hvplot.scatter.
